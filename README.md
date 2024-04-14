@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+Story 1: Setup and Configuration
+As a developer, I need to set up the React Native project and install necessary dependencies like Redux and Redux Toolkit, so that I can start developing the application with the required frameworks and libraries.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Acceptance Criteria:
+•	Initialize the React Native project.
+•	Install Redux, (Redux Toolkit), and any other necessary dependencies.
+•	Create a READ.me file and write initial instructions.
 
-In the project directory, you can run:
 
-### `npm start`
+Story 2: Explore Pokémon
+As a user, I want to view a list of Pokémon with their names and icons displayed in a grid layout, so that I can easily explore and choose my favorite Pokémon to learn more about or add to my cart.
+Acceptance Criteria:
+•	Fetch Pokémon data from the PokeAPI. Here’s the link PokéAPI 
+•	Display Pokémon in a grid layout with names and icons.
+•	Ensure the menu is scrollable to handle a large number of Pokémon.
+•	Write code comments that will help reviewer understand.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Story 3: Manage Cart
+As a user, I want to add Pokémon to my cart, adjust quantities, and remove items, so that I can manage my selections before making a purchase.
+Acceptance Criteria:
+•	Implement add-to-cart functionality for selected Pokémon.
+•	Allow quantity adjustments and item removal within the cart.
+•	Provide a summary view of the cart and selected Pokémon details.
