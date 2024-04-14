@@ -25,6 +25,8 @@ export default class cartModal extends React.Component{
         <span className='cartTitle'>Items Added to the Cart: </span>
         <ul className='cartContent'>
             <li>Pokemon</li>
+            <li>Pokemon</li>
+            <li>Pokemon</li>           
         </ul>
       </div>
     </div>

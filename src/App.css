@@ -33,9 +33,24 @@ body{
 }
 .cartTitle{
   font-size: 30px;
+  margin-left: 25px;
 }
 .cartContent{
+  padding: 30px;
+  margin-left: 25px;
+  width: 500px;
+  height: 300px;
+  overflow-y: scroll;
   font-size: 20px;
+}
+
+.AddtoCart{
+  color:white;
+  background-color: rgb(92, 136, 82);
+  cursor: pointer;
+  width: 550px;
+  margin: 10px;
+  height: 35px;
 }
 
 .navbar__title{
